@@ -6,3 +6,4 @@ COPY . .
 ENV HOST=0.0.0.0
 ENV PORT=8091
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8091"]
+
